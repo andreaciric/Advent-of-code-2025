@@ -1,5 +1,5 @@
 START_NUMBER = 50
-INPUT_FILE = "/Users/andreaciric/Documents/Advent-of-code-2025/day1/input.txt"
+INPUT_FILE = "input.txt"
 
 def find_most_visited_from_file(start_number, filename):
     current_position = start_number
