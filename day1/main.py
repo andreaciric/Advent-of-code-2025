@@ -1,7 +1,7 @@
 START_NUMBER = 50
 INPUT_FILE = "input.txt"
 
-def find_most_visited_from_file(start_number, filename):
+def unlock_the_door(start_number, filename):
     current_position = start_number
 
     password1 = 0
@@ -40,7 +40,7 @@ def find_most_visited_from_file(start_number, filename):
     return password1, password2
 
 if __name__ == "__main__":
-    password1, password2 = find_most_visited_from_file(
+    password1, password2 = unlock_the_door(
         START_NUMBER, INPUT_FILE
     )
 
