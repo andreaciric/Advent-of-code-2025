@@ -48,6 +48,7 @@ def main():
         grid = new_grid
         print(f"\nAccessible rolls in iteration {i}: {accessible_count}\n")
         result += accessible_count
+        i += 1
 
     for row in new_grid:
         print(''.join(row))
